@@ -1,6 +1,6 @@
 FROM openjdk:8u151-jdk-alpine3.7
 
-EXPOSE 8072
+EXPOSE 8073
 
 ENV APP_HOME /usr/src/app
 
