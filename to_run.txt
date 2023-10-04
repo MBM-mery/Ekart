@@ -1,0 +1,48 @@
+----------------------------------------------------------                       
+                       Sonar Vm
+----------------------------------------------------------
+docker ps -a  lister les conteneurs run et not run
+docker start 50a0bc282462  -----démarrer sonarqube id.....
+
+
+
+
+login: admin
+mdp: meryem  
+------------------------------------------------------------
+
+                        Jenkins Vm
+------------------------------------------------------------
+port: 8081
+
+login: admin
+mdp : 1415
+
+ ./ngrok http 8080 ------>https://12ab-196-119-148-184.ngrok-free.app 
+change url webhooks sonar
+webhooks git
+
+
+
+https://afcc-196-74-179-162.ngrok-free.app
+                                            
+------------------------------------------------
+
+
+chmod 777 /etc/docker/daemon.json
+
+
+
+
+--------------------grafana --------------------
+user:admin
+password:admin1415
+
+docker start 7fccbc4d3bb7
+
+----------------------Jira plannification--------
+backlog --> fonctionnalités,exigences
+Epic --> Grosse fonctionnalité
+
+
+
